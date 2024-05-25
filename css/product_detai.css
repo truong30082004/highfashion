@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image1{
+    width: 100%;
+    
+}
+.small-image{
+    margin-bottom: 10px;
+    height: 133px;
+}
+.price{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+.dis{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    color: darkgray;
+    text-decoration: line-through;
+}
+.sentence{
+    color: #5c5470;
+}
+.radio{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+.radio::before,
+.radio::after{
+    content:"";
+    display:inline-block;
+
+}
+.radio::before{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    margin-left: 10px;
+    /* background-color: black; */
+}
+.brown::before{
+    background-color: #854836;
+} 
+.green::before{
+    background: #044a42;
+}
+.pink::before{
+    background: #ffadad;
+}
+.red::before {
+    background: #d20000 ;
+}
+.white::before {
+    background: #fbf2c4;
+    /* border-style: solid;
+    border-color: gray; */
+}
+.orange::before {
+    background: #e04d01;
+}
+.black::before {
+    background: #000000;
+}
+.blue::before {
+    background: #b5bdc4;
+}
+
+.radio:has(:checked)::after{
+    position: absolute;
+    top: 6px;
+    left: 16px;
+    width: 25px;
+    height: 25px;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    background-color: wheat;
+}
+.radio [type="radio"]{
+    display: none;
+}
+.size{
+    width: 20%;
+    height: 46px;
+    color: #5c5470;
+    border-radius: 62px;
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.size:hover{
+    background-color: black;
+    color: white;
+}
+.input-qty{
+    width: 50px;
+    height: 30px;
+}
+.addToCart{
+    width: 50%;
+}
+.addCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerPrice{
+    display: flex;
+}
+.discountPercent{
+    width: 60px;
+    height: 34px;
+    border-radius: 62px;
+    background-color: #e1dbd6;
+    font-size: 20px;
+    color: red;
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.star {
+    color: #FFD700;
+    font-size: 20px;
+    display: inline-block;
+    line-height: 1;
+}
+.image_product{
+     width: 236px;
+    height: 238px;   
+}
+.hoverProducts:hover {
+    /* CSS khi di chuột hover */
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 575px) {
+    .image-container {
+        align-items: center;
+    }
+    .image1{
+        width: 90%;
+    }
+    .small-image{
+        margin-top: 10px;
+        width: 100px;
+        height: 106px;
+    }
+    .size{
+        font-size: small;
+    }
+   
+}

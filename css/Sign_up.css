@@ -1,0 +1,17 @@
+  .no-border {
+    border: none;
+  }
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border:solid 1px black;
+    border-radius: 5px;
+    background-color: rgb(238, 237, 236);
+  }
+  .form-container hr {
+    margin: 20px 0;
+  }
+  .btn{
+    width: 360px;
+  }

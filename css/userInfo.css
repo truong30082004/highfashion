@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.user_image {
+    width: 70px;
+    height: 70px;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.button {
+    width: 120px;
+}
+
+.user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

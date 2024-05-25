@@ -1,0 +1,78 @@
+section {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.member-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.member-card:hover {
+  transform: translateY(-5px);
+}
+.member-card img {
+  border-radius: 30%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.member-name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.member-description {
+  font-size: 17px;
+  color: #777;
+}
+
+/* Testimonial section */
+.testimonial-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.testimonial-card img {
+  border-radius: 40%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card p {
+  font-size: 14px;
+  color: #888;
+}
+
+
+/* Carousel */
+#team-carousel .carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+#team-carousel .carousel-item.active {
+  opacity: 1;
+}

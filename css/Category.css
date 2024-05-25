@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.star {
+  color: #FFD700;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+li a{
+  color: rgb(40, 38, 38);
+}
+img{
+  width: 230px;
+}
+.font-weight-bold {
+  font-weight: bold;
+  font-size: 25px;
+}
+.title{
+  font-weight: bold;
+  font-size: 15px;
+}
+.item-start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFD700;
+}
+.border-right{
+  border-right: solid rgb(221, 219, 219) 1px;
+}
+.bg-blue{
+  background-color: rgb(13, 13, 209);
+}
+.bg-brown{
+  background-color: brown;
+}
+.bg-orange{
+  background-color: orange;
+}
+.bg-pink{
+  background-color:pink;
+}
+.bg-grey{
+  background-color: darkgrey;
+}
+.bg-red{
+  background-color:red;
+}
+.price-large {
+  font-size: 1.2em;
+}
+
+ul.list-unstyled {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+/* Hiệu ứng mặc định khi không hover */
+.col-sm-3 {
+  transition: transform 0.3s ease;
+}
+
+/* Hiệu ứng khi hover */
+.col-sm-3.hover-effect {
+  transform: scale(1.1);
+}
+/* Hover */
+/* .image-animation {
+  animation: moveImage 1s linear infinite;
+}
+
+.price-large {
+  font-size: 1.2em;
+}
+
+ul.list-unstyled {
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+/* Hiệu ứng mặc định khi không hover */
+.col-sm-3 {
+  transition: transform 0.3s ease;
+}
+
+/* Hiệu ứng khi hover */
+.col-sm-3.hover-effect {
+  transform: scale(1.1);
+}
+
+
+/* @media screen and (max-width:575px) {
+  img{
+    width: 98%;
+  }
+} */
+@media screen and (max-width: 575px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+  .responsive-image {
+      width: 100px;
+      height: auto;
+  }
+  .size{
+    border-right: none;
+  }
+  .star {
+    color: #FFD700;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  img{
+    width: 100px;
+  }
+  .font-weight-bold {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .title{
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .item-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .price-large {
+    font-size: 1em;
+  }
+  .fw-bold{
+    font-size: 15px;
+  }
+  .text-decoration-none{
+    font-size: 13px;
+  }
+  .form-check-input{
+    font-size:xx-small;
+  }
+  .form-check-label{
+    font-size: smaller;
+  }
+  
+}
+
+  
+
